@@ -18,5 +18,18 @@
   <br/>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/DYHHNQsGUVQ?si=KXvJD_9cQAD-UiCF&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/KhqNTjbQ71A?si=apnSvu8NLT9xN56c&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <span onclick="track()">測試</span>
+  <script>
+    function track(){
+
+gtag("event", "我高興的事件名稱", {
+	"article_title": "文章標題",
+	"click_name": "測試的名稱"
+});
+
+    }
+  </script>
+
 </body>
 </html>
